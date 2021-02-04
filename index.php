@@ -13,11 +13,17 @@
   <body>
   <main class="container-fluid">
 
+  <header>
+        <?php
+        include("./navbar.php");
+        ?>
+    </header>
+
     <!-- Content -->
     <div class="row" id="content">
         <?php
         if (isset($_GET["content"])) {
-            include("./" .  $_GET["content"] . ".php");
+            include("./pages/" .  $_GET["content"] . ".php");
         } else {
             include("./pages/home.php");
         }
