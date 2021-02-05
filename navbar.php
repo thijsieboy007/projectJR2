@@ -13,7 +13,7 @@
           <a class="nav-link" href="index.php?content=planning">planning</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
+          <a class="nav-link" href="index.php?content=klas">klassen</a>
         </li>
       </ul>
     </div>
